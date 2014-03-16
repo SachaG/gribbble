@@ -1,0 +1,1 @@
+Snapshots = new Meteor.Collection('snapshots');
