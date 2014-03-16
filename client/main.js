@@ -1,0 +1,1 @@
+Meteor.subscribe('snapshots', 12);
