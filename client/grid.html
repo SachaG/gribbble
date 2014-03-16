@@ -2,7 +2,9 @@
   <div class="grid">
     {{#each snapshots}}
       <div class="grid-snapshot grid-col">
-        {{timestamp}}
+        {{#each data.shots}}
+          <p>{{title}}</p>
+        {{/each}}
       </div>
     {{/each}}
   </div>
